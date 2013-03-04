@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="mortaromarcello" fetch="https://github.com/mortaromarcello/" />
+
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8-1" remote="mortaromarcello" revision="cm-10.1"/>
+  <project path="hardware/realtek" name="android_hardware_realtek-1" remote="mortaromarcello" revision="cm-10.1" />
+  <project path="device/mediacom/711" name="android_device_mediacom_711" remote="mortaromarcello" revision="jb42" />
+
+</manifest>
