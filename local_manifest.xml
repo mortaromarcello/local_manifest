@@ -60,6 +60,7 @@
   <remove-project name="AOKP/device_samsung_quincy-common" />
   <remove-project name="AOKP/device_samsung_quincyatt" />
   <remove-project name="AOKP/packages_apps_Settings" />
+  <remove-project name="AOKP/packages_apps_ROMControl" />
 <!--                  -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="mortaromarcello" revision="jellybean"/>
   <project path="external/cedarx" name="android_external_cedarx2" remote="mortaromarcello" revision="jellybean" />
@@ -70,6 +71,7 @@
   <project path="hardware/realtek" name="android_hardware_realtek" remote="mortaromarcello" revision="jellybean" />
   <project path="device/mediacom/711" name="device_mediacom_711" remote="mortaromarcello" revision="jb" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cyanogenmod" revision="jellybean" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="mortaromarcello" revision="jb" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mortaromarcello" revision="jb" />
   <project path="system/core" name="system_core" remote="mortaromarcello" revision="jb" />
   <project path="vendor/aokp" name="vendor_aokp" remote="mortaromarcello" revision="jb" />
