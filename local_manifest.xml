@@ -2,10 +2,78 @@
 <manifest>
 
   <remote name="mortaromarcello" fetch="https://github.com/mortaromarcello/" />
-
-  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8-1" remote="mortaromarcello" revision="cm-10.1"/>
+  <remote name="cyanogenmod" fetch="https://github.com/CyanogenMod" />
+<!--         projects removed         -->
+  <!--remove-project name="android_external_wpa_supplicant_8" /-->
+  <remove-project name="AOKP/frameworks_base" />
+  <!--remove-project name="AOKP/frameworks_native" /-->
+  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="AOKP/vendor_aokp" />
+  <!--remove-project name="AOKP/pseudo_buildbot" /-->
+  <remove-project name="AOKP/vendor_htc" />
+  <remove-project name="AOKP/vendor_lge" />
+  <remove-project name="AOKP/vendor_motorola" />
+  <remove-project name="AOKP/vendor_samsung" />
+  <remove-project name="AOKP/vendor_acer_a510" />
+  <remove-project name="AOKP/vendor_asus" />
+  <remove-project name="AOKP/device_acer_a510" />
+  <remove-project name="AOKP/device_asus_grouper" />
+  <remove-project name="AOKP/device_asus_tilapia"/>
+  <!--remove-project name="android_device_common" /-->
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/armv7-a" />
+  <!--remove-project name="device/generic/common" /-->
+  <!--remove-project name="device/generic/goldfish" /-->
+  <remove-project name="device/generic/mips" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="AOKP/device_htc_evita" />
+  <remove-project name="AOKP/device_htc_msm8960-common" />
+  <remove-project name="AOKP/device_lge_iprj-common" />
+  <remove-project name="AOKP/device_lge_mako" />
+  <remove-project name="AOKP/device_lge_p930" />
+  <remove-project name="AOKP/device_lge_su640" />
+  <remove-project name="AOKP/device_lge_vs920" />
+  <remove-project name="AOKP/device_motorola_maserati" />
+  <remove-project name="AOKP/device_motorola_omap4-common" />
+  <remove-project name="AOKP/device_motorola_solana" />
+  <remove-project name="AOKP/device_motorola_spyder" />
+  <remove-project name="AOKP/device_motorola_targa" />
+  <remove-project name="AOKP/device_motorola_umts_spyder" />
+  <remove-project name="device/sample" />
+  <remove-project name="AOKP/device_samsung_celox-common" />
+  <remove-project name="AOKP/device_samsung_d2-common" />
+  <remove-project name="AOKP/device_samsung_d2att" />
+  <remove-project name="AOKP/device_samsung_d2tmo" />
+  <remove-project name="AOKP/device_samsung_d2usc" />
+  <remove-project name="AOKP/device_samsung_d2vzw" />
+  <remove-project name="AOKP/device_samsung_galaxys2-common" />
+  <remove-project name="AOKP/device_samsung_hercules" />
+  <remove-project name="AOKP/device_samsung_i605" />
+  <remove-project name="AOKP/device_samsung_i9100" />
+  <remove-project name="AOKP/device_samsung_i9100g" />
+  <remove-project name="AOKP/device_samsung_i9300" />
+  <remove-project name="AOKP/device_samsung_l900" />
+  <remove-project name="AOKP/device_samsung_maguro" />
+  <remove-project name="AOKP/device_samsung_manta" />
+  <remove-project name="AOKP/device_samsung_msm8660-common" />
+  <remove-project name="AOKP/device_samsung_msm8960-common" />
+  <remove-project name="android_device_samsung_omap4-common" />
+  <remove-project name="AOKP/device_samsung_smdk4412-common" />
+  <remove-project name="AOKP/device_samsung_t0lte" />
+  <remove-project name="AOKP/device_samsung_t0ltecdma" />
+  <remove-project name="AOKP/device_samsung_toro" />
+  <remove-project name="AOKP/device_samsung_toroplus" />
+  <remove-project name="AOKP/device_samsung_tuna" />
+  <remove-project name="AOKP/device_samsung_qcom-common" />
+  <remove-project name="device/ti/panda" />
+<!--              end                 -->
+  <!--project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8-1" remote="mortaromarcello" revision="cm-10.1"/-->
+  <project path="frameworks/base" name="frameworks_base" remote="mortaromarcello" revision="jb-mr1" />
+  <!--project path="frameworks/native" name="android_frameworks_native" remote="cyanogenmod" revision="refs/tags/cm-10.1-M2" /-->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cyanogenmod" revision="refs/tags/cm-10.1-M2" />
   <project path="hardware/realtek" name="android_hardware_realtek-1" remote="mortaromarcello" revision="cm-10.1" />
-  <project path="device/mediacom/711" name="android_device_mediacom_711" remote="mortaromarcello" revision="jb42" />
-
+  <project path="device/mediacom/711" name="android_device_mediacom_711" remote="mortaromarcello" revision="aokp42" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="mortaromarcello" revision="aokp42" />
 </manifest>
