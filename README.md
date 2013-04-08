@@ -4,6 +4,6 @@
   
   launch the command ". build/envsetup.sh";
   
-  launch the command "lunch aokp_711i-userdebug";
+  launch the command "lunch cm_711i-userdebug";
   
   lauch the command "make" for build.
