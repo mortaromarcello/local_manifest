@@ -27,7 +27,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mortaromarcello" revision="jellybean" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="mortaromarcello" revision="jellybean" />
   <project path="device/mediacom/711" name="android_device_mediacom_711" remote="mortaromarcello" revision="jellybean" />
-  <project path="device/mediacom/711/apps/fdroidclient" name="f-droid/fdroidclient" remote="gitorious" revision="master" />
+  <!--project path="device/mediacom/711/apps/fdroidclient" name="f-droid/fdroidclient" remote="gitorious" revision="master" /-->
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cyanogenmod" revision="jellybean" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mortaromarcello" revision="jellybean" />
   <project path="system/core" name="android_system_core" remote="mortaromarcello" revision="jellybean" />
